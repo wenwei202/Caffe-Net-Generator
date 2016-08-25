@@ -12,3 +12,4 @@ E.G.
 # --net_template: prototxt template specifies the data layer
 python resnet_generator.py --n 3 --net_template resnet_template.prototxt
 ```
+Generated prototxt is `cifar10_resnet_n3.prototxt`
