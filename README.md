@@ -8,7 +8,7 @@ Original paper: https://arxiv.org/abs/1512.03385
 
 E.G.
 ```
-# --n number of groups, please refer to the above paper
-# --net_template prototxt template
+# --n: number of groups, please refer to the above paper
+# --net_template: prototxt template specifies the data layer
 python resnet_generator.py --n 3 --net_template resnet_template.prototxt
 ```
